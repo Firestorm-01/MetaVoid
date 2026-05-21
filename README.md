@@ -41,6 +41,9 @@ CLI Flags
 --password — password for encrypted PDFs
 --workers — parallel threads (default: 4)
 example commands:
+python strip_metadata.py photo.jpg --verify --report --ledger
+python strip_metadata.py document.pdf --verify --report --ledger
+
 python strip_metadata.py document.pdf --verify --report --ledger
 python strip_metadata.py photo.jpg --verify --report --ledger
 --dry-run — preview without writing files
